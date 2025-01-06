@@ -24,7 +24,7 @@ const User = () => {
         .catch(err => console.log(err)) 
     }
     return (
-        <div >
+        <div className='user' >
             <h1>User</h1>
             <Link to="/create">Create User</Link>
             <table>
