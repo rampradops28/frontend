@@ -32,6 +32,7 @@ const User = () => {
                     <th>Name</th>
                     <th>Email</th>
                     <th>Address</th>
+                    <th>Opertaions</th>
                 </tr>
                 {user.map((value) => (                        
                     <tr>
