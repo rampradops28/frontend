@@ -7,7 +7,7 @@ const User = () => {
     const [user, setUser] = useState([ ])
 
     useEffect(() => {
-        axios.get('https://backend-kv0h.onrender.com//api/user/fetch')
+        axios.get('https://backend-kv0h.onrender.com/api/user/fetch')
         .then((res) => {
             setUser(res.data)
         })
@@ -17,7 +17,7 @@ const User = () => {
     },[])
 
     const handleDelete = (id) => {
-        axios.delete(`https://backend-kv0h.onrender.com//api/user/delete/${id}`)
+        axios.delete(`https://backend-kv0h.onrender.com/api/user/delete/${id}`)
         .then(res => {
             console.log("user deleted")
         })
