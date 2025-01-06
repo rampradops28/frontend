@@ -21,7 +21,7 @@ const Updateuser = () => {
   }
 
   return (
-    <div className="update-form">
+    <div className="create-form">
             <div>
                 <h1>Update User</h1>
             </div>
