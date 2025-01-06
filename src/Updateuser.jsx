@@ -12,7 +12,7 @@ const Updateuser = () => {
 
   const updateUser = (e) => {
     e.preventDefault();
-    axios.put(`https://backend-kv0h.onrender.com//api/user/update/${id}`, {name,email,address})
+    axios.put(`https://backend-kv0h.onrender.com/api/user/update/${id}`, {name,email,address})
     .then(res => {
       console.log(res)
       navigate('/')
